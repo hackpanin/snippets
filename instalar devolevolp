@@ -1,0 +1,5 @@
+val value by animateFloatAsState(
+    targetValue = 1f,
+    animationSpec = snap(delayMillis = 50),
+    label = "snap spec"
+)
